@@ -1,0 +1,63 @@
+html
+{
+    scroll-behavior: smooth;
+}body
+{
+    height: 1500px;
+}
+.header-sticky
+{
+    display: grid;
+    gap:10px;
+    position:fixed;
+    right: 50px;
+    bottom:10px;
+}
+.header-sticky-outline
+{
+    padding:30px 10px;
+    cursor: pointer;
+    background-color: red;
+    border-radius:10px;
+    font-weight: 700;
+    font-size:18px;
+    text-align: center;
+}
+.header-left-section
+{
+    position:fixed;
+    left:30px;
+    bottom:10px;
+    display: grid;
+    gap:10px;
+}
+.left-content
+{
+    background-color: green;
+    padding:20px 20px;
+    font-weight: 600;
+    font-size:18px;
+    border-radius: 10px;
+}
+.header-left
+{
+    display:flex;
+}
+.content{
+    background-color: antiquewhite;
+    line-height: 30px;
+    width: 150px;
+    height: 35px;
+    margin-top: 13px;
+    padding-left:10px;
+    border-radius: 0px 10px 10px 0px;
+}
+.hiddenhidden
+{
+    display: grid;
+    gap: 10px;
+}
+#hidden,#hiddencontent
+{
+    display: none;
+}
